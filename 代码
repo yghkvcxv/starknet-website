@@ -1,0 +1,33 @@
+   ]
+  "extends": "./tsconfig.options.json",
+  "include": [],
+  "references": [
+    {
+      "path": "./workspaces/cms-config"
+    },
+    {
+      "path": "./workspaces/cms-data"
+    },
+    {
+      "path": "./workspaces/cms-scripts"
+    },
+    {
+      "path": "./workspaces/cms-utils"
+    },
+    {
+      "path": "./workspaces/netlify-cms"
+    },
+    {
+      "path": "./workspaces/netlify-cms-auth"
+    },
+    {
+      "path": "./workspaces/netlify-cms-widgets"
+    },
+    {
+      "path": "./workspaces/website"
+    },
+    {
+      "path": "./workspaces/netlify-cms-backend-github"
+    }
+  ]
+}
